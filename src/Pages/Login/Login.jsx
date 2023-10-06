@@ -13,7 +13,7 @@ const handlerLogin = (e) =>{
 
 
 return (
-  <div>
+<div>
  <h1 className="text-center py-10 text-4xl font-bold"> Login Now !</h1>
     <div className="card flex-shrink-0 w-[400px] mx-auto shadow-2xl border bg-base-100">
       <form onSubmit={handlerLogin} className="card-body">
@@ -35,11 +35,9 @@ return (
         </div>
       </form>
       
-      <p className="mb-4 text-center font-bold text-indigo-400">Do not have an account? Create an account  <Link className="text-orange-600"> Register </Link>  </p>
+      <p className="mb-4 text-center font-bold text-indigo-400">Do not have an account? Create an account  <Link to="/register" className="text-orange-600"> Register </Link>  </p>
     </div>
   </div>
-
-
  );
 };
 
