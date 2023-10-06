@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "name": "Attend education conferences",
+     "description": "Once upon a time, continuing professional development (CPD) meant attending a course hosted by an external provider. You chose the topic you needed training on. something subject specific, a demonstration for advanced chemistry maybe or perhaps something to help your career progression like a middle leaders course.",
+     "img": "https://i.ibb.co/RSWK0LV/service11.jpg",
+      "price": 500 
+  },
+  {
+    "id": "2",
+    "name": "The Learning Ideas Conference",
+     "description": "The Learning Ideas Conference: Innovations in Learning and Technology for the Workplace and Higher Education encourages anyone with an interest in workplace learning or higher education from any perspective to submit, including researchers; learning and development professionals.",
+     "img": "https://i.ibb.co/wdJdBz6/service6.jpg",
+      "price": 400 
+  },
+  {
+    "id": "3",
+    "name": "International Conferences",
+     "description": "The benefits of attending top medical conferences are infinite, from educational values to employer branding. The magnitude of events around the world, makes it difficult to decide which ones will be the most informative and interesting for the attendees. The healthcare industry is ever-changing, to keep up with the latest developments and solutions, you need to take every opportunity to learn and develop.",
+     "img": "https://i.ibb.co/GVVsS0t/service7.jpg",
+      "price": 600 
+  },
+  {
+    "id": "4",
+    "name": "Conferences & Events",
+     "description": "Conferences and events are essential platforms for knowledge exchange, networking, and collaboration across diverse industries. These gatherings bring together experts, professionals, and enthusiasts to discuss emerging trends, share insights, and explore innovative solutions, fostering learning and growth while facilitating valuable connections and partnerships in a dynamic and interactive environment.",
+     "img": "https://i.ibb.co/HqXrR82/service8.jpg",
+      "price": 400 
+  },
+  {
+    "id": "5",
+    "name": "Good Teaching Conference",
+     "description": "California Teachers Association Good Teaching Conferences are among its most popular on the calendar, and with a sell-out crowd in Garden Grove this year, the 2023 offering exceeded that high mark. School districts throughout the state have experienced the value of the conference and are helping underwrite the cost of the weekend training they know is a cost-effective means for their teachers to receive outstanding professional development.",
+     "img": "https://i.ibb.co/sgt3tVH/service9.jpg",
+      "price": 700 
+  },
+  {
+    "id": "6",
+    "name": " Executives Conference",
+     "description": "An executive conference is a high-level business gathering where senior leaders, executives, and decision-makers convene to discuss strategic initiatives, industry trends, and leadership challenges. These events offer opportunities for networking, knowledge sharing, and the exchange of best practices, enabling executives to stay informed and make informed decisions.",
+     "img": "https://i.ibb.co/Mn8s1FH/service10.jpg",
+      "price": 700 
+  }
+
+
+]
