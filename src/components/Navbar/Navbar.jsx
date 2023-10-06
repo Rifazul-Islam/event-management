@@ -27,7 +27,7 @@ return (
     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className=" space-x-3 menu-horizontal px-1">
+    <ul className=" text-[18px] font-bold space-x-3 menu-horizontal px-1">
     {items}
     </ul>
   </div>
