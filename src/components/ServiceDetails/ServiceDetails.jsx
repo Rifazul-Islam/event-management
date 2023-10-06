@@ -1,5 +1,5 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
-import Navbar from "../Navbar/Navbar";
+
 
 
 const ServiceDetails = () => {
@@ -13,8 +13,7 @@ const ServiceDetails = () => {
 
 return (
 <div>
- <Navbar></Navbar>  
-
+ 
 
  <div className="card card-side mt-6 bg-base-100 shadow-2xl grid grid-cols-1 md:grid-cols-2">
   <figure><img className="h-[300px]"  src={img} alt="Movie"/></figure>
