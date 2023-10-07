@@ -7,11 +7,13 @@ import Register from "../Pages/Register/Register";
 import PrivateRoutes from "./PrivateRoutes";
 import Training from "../Pages/Training/Training";
 import Blog from "../Pages/Blog/Blog";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path:"/",
     element:<MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children :[
       {
         path:"/",
@@ -28,10 +30,10 @@ const router = createBrowserRouter([
         element:<Register></Register>
       },{
          path:"/training",
-         element:<Training></Training>
+         element: <PrivateRoutes> <Training></Training> </PrivateRoutes>
       },{
         path:"/blog",
-        element:<Blog></Blog>
+        element:<PrivateRoutes> <Blog></Blog> </PrivateRoutes> 
       }
     ]
   }
