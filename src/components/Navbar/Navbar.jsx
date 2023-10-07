@@ -37,7 +37,7 @@ const items = <>
  </>
 
 return (
-<div className="navbar  shadow-md p-3 py-6 bg-base-100">
+<div className="navbar  shadow-md px-3  bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ return (
         {items}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <span> <img className="w-20" src="https://i.ibb.co/KmwK7r0/logo.png" alt="" /></span>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className=" text-[18px] font-bold space-x-3 menu-horizontal px-1">
@@ -57,7 +57,7 @@ return (
   <div className="navbar-end ">
 
  {
-   user ? <div className="space-x-3 flex items-center "> <span> {user?.displayName} </span> <span> <img className="w-14 h-14 rounded-full" src={user?.photoURL} alt="" /> </span>   <button onClick={handlerSignOut} className="btn"> Sign out</button> </div> :<Link to="/login" className="btn"> Login </Link>
+   user ? <div className="space-x-3 flex items-center "> <span> {user?.displayName} </span> <span> <img className="w-14 h-14 rounded-full object-cover" src={user?.photoURL} alt="" /> </span>   <button onClick={handlerSignOut} className="btn"> Sign out</button> </div> :<Link to="/login" className="btn"> Login </Link>
  }
 
     
