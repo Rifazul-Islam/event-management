@@ -37,7 +37,7 @@ const items = <>
  </>
 
 return (
-<div className="navbar  shadow-md p-3 bg-base-100">
+<div className="navbar  shadow-md p-3 py-6 bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
