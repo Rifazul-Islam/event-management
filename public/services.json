@@ -1,16 +1,16 @@
 [
   {
     "id": "1",
-    "name": "Attend education conferences",
-     "description": "Once upon a time, continuing professional development (CPD) meant attending a course hosted by an external provider. You chose the topic you needed training on. something subject specific, a demonstration for advanced chemistry maybe or perhaps something to help your career progression like a middle leaders course.",
-     "img": "https://i.ibb.co/RSWK0LV/service11.jpg",
+    "name": "Workshops & Webinars",
+     "description": "Due to the  pandemic, we continue to face a variety of challenges. However, we are looking forward to welcoming you back soon to our Workshops at EATC Berlin and to our online events. We place the highest priority on the health protection of our employees, visitors and customers. Taking into account all necessary hygiene regulations and greatly reduced number of participants at our EATC events, we offer you the following dates.",
+     "img": "https://i.ibb.co/MP1MzdT/workshop1.jpg",
       "price": 500 
   },
   {
     "id": "2",
-    "name": "The Learning Ideas Conference",
-     "description": "The Learning Ideas Conference: Innovations in Learning and Technology for the Workplace and Higher Education encourages anyone with an interest in workplace learning or higher education from any perspective to submit, including researchers; learning and development professionals.",
-     "img": "https://i.ibb.co/wdJdBz6/service6.jpg",
+    "name": "UH Career Failrs",
+     "description": "Career fairs offer great opportunities to network with companies and find new employment opportunities. Unfortunately, they usually draw large crowds and it can be hard to stand out from the herd. Use these tips to help make a memorable first impression the next time you re out at a job fair!",
+     "img": "https://i.ibb.co/yym0cxv/careerfair2.jpg",
       "price": 400 
   },
   {
@@ -22,16 +22,16 @@
   },
   {
     "id": "4",
-    "name": "Conferences & Events",
-     "description": "Conferences and events are essential platforms for knowledge exchange, networking, and collaboration across diverse industries. These gatherings bring together experts, professionals, and enthusiasts to discuss emerging trends, share insights, and explore innovative solutions, fostering learning and growth while facilitating valuable connections and partnerships in a dynamic and interactive environment.",
-     "img": "https://i.ibb.co/HqXrR82/service8.jpg",
+    "name": "Training Programs",
+     "description": "Training programs are educational initiatives designed to equip individuals with specific skills or knowledge in a structured manner. These programs offer a combination of instructional content. They can be tailored to various purposes, such as career development, compliance, or skill enhancement, helping participants achieve their learning objectives and excel in their respective areas of interest or profession.",
+     "img": "https://i.ibb.co/7vnKscW/training-programs1.jpg",
       "price": 400 
   },
   {
     "id": "5",
-    "name": "Good Teaching Conference",
-     "description": "California Teachers Association Good Teaching Conferences are among its most popular on the calendar, and with a sell-out crowd in Garden Grove this year, the 2023 offering exceeded that high mark. School districts throughout the state have experienced the value of the conference and are helping underwrite the cost of the weekend training they know is a cost-effective means for their teachers to receive outstanding professional development.",
-     "img": "https://i.ibb.co/sgt3tVH/service9.jpg",
+    "name": "Thomas Career Fair",
+     "description": "The Thomas Career Fair is an event that connects job seekers with potential employers. It offers a platform for individuals to explore career opportunities, network with companies, and submit resumes. Employers showcase their businesses, interview candidates, and recruit talent, making it a valuable event for both job seekers and employers.",
+     "img": "https://i.ibb.co/x7DCJRh/career-Fairs2.jpg",
       "price": 700 
   },
   {
