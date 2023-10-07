@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 const ServiceCard = ({service}) => {
 const{img,name,description,price,id,specific} = service          
 return (
-<div>
+<div   data-aos="zoom-in"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
+     
+     >
 <div className="card card-compact  bg-base-100 shadow-2xl">
   <figure><img className="h-[200px] w-full" src={img} alt="Shoes" /></figure>
   <div className="card-body">
