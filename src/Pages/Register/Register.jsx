@@ -1,13 +1,13 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProviders/AuthProviders";
 import { toast } from "react-toastify";
-
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 const Register = () => {
   
 const {createNewUser,userProfileUpdate,setUser} = useContext(AuthContext)
 const [open ,setOpen] = useState(false)
-
+const navigate = useNavigate()
 
 const handlerRegister = (e) =>{
   e.preventDefault()
@@ -17,7 +17,6 @@ const handlerRegister = (e) =>{
   const email = form.get("email")
   const password = form.get("password")
 
-  console.log(name,image,email,password);
     if( password.length < 6){
       return toast.error("Please Must be Six character")
     }
@@ -44,7 +43,7 @@ const handlerRegister = (e) =>{
   toast.error(error.message)
  })
 
-
+ navigate("/")
 
   })
   .catch(error =>{
@@ -59,7 +58,7 @@ return (
 <div>
  <h1 className="text-center py-10 text-4xl font-bold"> Register Now !</h1>
     <div className="card flex-shrink-0 w-[400px] mx-auto shadow-2xl border bg-base-100">
-      <form onSubmit={handlerRegister} className="card-body">
+      <form onSubmit={handlerRegister} className="card-body ">
         
         <div className="form-control">
           <label className="label">
@@ -80,15 +79,17 @@ return (
             <span className="label-text">Email</span>
           </label>
           <input type="email" name="email" placeholder="Email" className="input input-bordered" required />
-           <span className="cursor-pointer" onClick={()=>setOpen(!open)}> Show </span>
+          
         </div>
 
-        <div className="form-control">
+        <div className="form-control relative">
           <label className="label">
             <span className="label-text">Password</span>
           </label>
           <input type={open ? "text" : "password"} placeholder="Password" name="password" className="input input-bordered" required />
-
+         <span className="cursor-pointer absolute right-4 bottom-4  text-xl " onClick={()=>setOpen(!open)}> {open? <AiOutlineEyeInvisible/> : <AiOutlineEye/>} </span>
+         
+         
         </div>
 
         <div className="form-control mt-6">

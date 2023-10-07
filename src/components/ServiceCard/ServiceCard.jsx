@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { BiRightArrowAlt } from "react-icons/bi";
 const ServiceCard = ({service}) => {
 const{img,name,description,price,id,specific} = service          
 return (
@@ -18,7 +19,7 @@ return (
 
      <p className="font-bold text-xl text-slate-500 "> Price : ${price} </p>
  
-     <Link to={`/service/${id}`} >  <button className="btn  w-full hover:bg-slate-400 text-xl bg-slate-300 text-orange-600 font-bold border-none my-6 capitalize">  {specific} </button> </Link>
+     <Link to={`/service/${id}`} >  <button className="btn  w-full hover:bg-slate-400 text-xl bg-slate-300 text-orange-600 font-bold border-none my-6 capitalize">  {specific} <span> <BiRightArrowAlt/> </span> </button> </Link>
    
   </div>
 </div>                                   

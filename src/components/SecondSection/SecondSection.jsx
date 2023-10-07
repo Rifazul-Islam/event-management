@@ -9,7 +9,7 @@ return (
       </div>     
 
           <div data-aos="fade-left">
-          <img className="h-[300px] w-full rounded-lg" src="/service8.jpg" alt="" />   
+          <img className="h-[300px] w-full rounded-lg" src="https://i.ibb.co/HqXrR82/service8.jpg" alt="" />   
       </div>                           
 </div>
 );

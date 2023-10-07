@@ -9,7 +9,7 @@ const Home = () => {
 return (
 <div>
  
-    <Slider></Slider>    
+    <div className=" relative z-[3]"> <Slider></Slider>     </div>
     
     <div className="py-14"> <Services></Services> </div>
 
