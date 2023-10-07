@@ -24,8 +24,16 @@ const items = <>
      }
     
     > Home </NavLink> </li>
-    <li> <NavLink to="/" > Conference</NavLink> </li>
-    <li> <NavLink to="/" > Blog </NavLink> </li>
+
+    <li> <NavLink to="/training" 
+     className={({isActive})=>
+     isActive ? "bg-green-300 p-1 px-2 rounded-md " : " "
+   }> Training</NavLink> </li>
+
+    <li> <NavLink to="/blog" 
+     className={({isActive})=>
+     isActive ? "bg-green-300 p-1 px-2 rounded-md " : " " }
+    > Blog </NavLink> </li>
  </>
 
 return (
