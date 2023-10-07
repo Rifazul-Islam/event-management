@@ -1,7 +1,14 @@
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../AuthProviders/AuthProviders";
+import { toast } from "react-toastify";
 
 const Register = () => {
-    
+  
+const {createNewUser} = useContext(AuthContext)
+const [open ,setOpen] = useState(false)
+
+
 const handlerRegister = (e) =>{
   e.preventDefault()
   const form = new FormData(e.currentTarget)
@@ -11,6 +18,28 @@ const handlerRegister = (e) =>{
   const password = form.get("password")
 
   console.log(name,image,email,password);
+    if( password.length < 6){
+      return toast.error("Please Must be Six character")
+    }
+  if(!/^(?=.*[a-z])(?=.*[A-Z])/.test(password)){
+     return toast.error("Please At last one UpperCase and one LowerCase letter provide")
+  }
+
+  
+
+  // new User Create 
+  createNewUser(email,password)
+  .then(result =>{
+    const userInfo = result.user
+    console.log(userInfo);
+    toast.success("Create user Successfully")
+  })
+  .catch(error =>{
+    console.log(error.message);
+    toast.error(error.message)
+  })
+
+
 }
           
 return (
@@ -38,13 +67,14 @@ return (
             <span className="label-text">Email</span>
           </label>
           <input type="email" name="email" placeholder="Email" className="input input-bordered" required />
+           <span className="cursor-pointer" onClick={()=>setOpen(!open)}> Show </span>
         </div>
 
         <div className="form-control">
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
+          <input type={open ? "text" : "password"} placeholder="Password" name="password" className="input input-bordered" required />
 
         </div>
 
