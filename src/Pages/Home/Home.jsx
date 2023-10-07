@@ -1,3 +1,4 @@
+import FirstSection from "../../components/FirstSection/FirstSection";
 import Footer from "../../components/Footer/Footer";
 import Services from "../../components/Services/Services";
 import Slider from "../../components/Slider/Slider";
@@ -11,7 +12,9 @@ return (
     
     <div className="py-14"> <Services></Services> </div>
 
-  <div className="pt-10" > <Footer></Footer> </div>
+   <div> <FirstSection></FirstSection> </div>
+
+  <div className="pt-10"> <Footer></Footer> </div>
 
 </div>
  );
