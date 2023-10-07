@@ -46,10 +46,10 @@ return (
     {items}
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="navbar-end ">
 
  {
-   user ? <> <span> {user.email} </span> <button onClick={handlerSignOut} className="btn"> Sign out</button> </> :<Link to="/login" className="btn"> Login </Link>
+   user ? <div className="space-x-3 flex items-center "> <span> {user?.displayName} </span> <span> <img className="w-14 h-14 rounded-full" src={user?.photoURL} alt="" /> </span>   <button onClick={handlerSignOut} className="btn"> Sign out</button> </div> :<Link to="/login" className="btn"> Login </Link>
  }
 
     

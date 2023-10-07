@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 
 const Register = () => {
   
-const {createNewUser} = useContext(AuthContext)
+const {createNewUser,userProfileUpdate,setUser} = useContext(AuthContext)
 const [open ,setOpen] = useState(false)
 
 
@@ -33,6 +33,19 @@ const handlerRegister = (e) =>{
     const userInfo = result.user
     console.log(userInfo);
     toast.success("Create user Successfully")
+
+ // Profile Update 
+ userProfileUpdate(userInfo,{displayName:name,photoURL:image})
+ .then(()=>{
+  setUser({... userInfo ,displayName:name,photoURL:image })
+  toast.success("User Profile Update")
+ })
+ .catch(error =>{
+  toast.error(error.message)
+ })
+
+
+
   })
   .catch(error =>{
     console.log(error.message);

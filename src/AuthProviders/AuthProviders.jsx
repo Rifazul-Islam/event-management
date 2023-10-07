@@ -17,10 +17,10 @@ const createNewUser = (email,password) =>{
 
 // user Profile Update 
 
-// const userProfileUpdate = (userInfo , profile) =>{
+const userProfileUpdate = (userInfo , profile) =>{
   
-//   return updateProfile(userInfo,profile)
-// }
+  return updateProfile(userInfo,profile)
+}
 
 
 // user SigIn
@@ -63,7 +63,9 @@ const authInfo = {
  loginUser,
  googleLogin ,
  userLogOut,
- loading
+ loading,
+ userProfileUpdate,
+ setUser
 }
 
 return (
