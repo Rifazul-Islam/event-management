@@ -2,12 +2,12 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../AuthProviders/AuthProviders";
 import { toast } from "react-toastify";
-import { FcGoogle } from "react-icons/fc";
+import { AiFillGithub } from "react-icons/ai";
 
 
 
 const Login = () => {
-const{loginUser,googleLogin } = useContext(AuthContext)
+const{loginUser,gitHubLogin } = useContext(AuthContext)
 const navigate =useNavigate()
 
 const handlerLogin = (e) =>{
@@ -21,6 +21,7 @@ const handlerLogin = (e) =>{
   loginUser(email,password)
   .then(result =>{
     const userInfo = result.user;
+    console.log(userInfo);
     toast.success("User Login Successfully")
     navigate("/")
   })
@@ -31,11 +32,12 @@ const handlerLogin = (e) =>{
 
 
 // Google Login 
-const handlerGoogleLogin = ()=>{
-googleLogin()
+const handlerGithubLogin = ()=>{
+  gitHubLogin()
 .then(result =>{
   const userInfo = result.user;
-  toast.success("Google Login Successfully")
+  toast.success("Github Login Successfully")
+   navigate("/")
   console.log(userInfo);
 })
 
@@ -71,7 +73,7 @@ return (
     
     </div>
     
-   <div onClick={handlerGoogleLogin } className="text-center w-[400px] mx-auto"> <button className="btn bg-slate-300  text-xl my-3 w-full capitalize"> <FcGoogle/> Google With Login</button></div>
+   <div onClick={handlerGithubLogin } className="text-center w-[400px] mx-auto"> <button className="btn bg-slate-300  text-xl my-3 w-full capitalize"> <AiFillGithub/> Github With Login</button></div>
   </div>
  );
 };
