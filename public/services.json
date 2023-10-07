@@ -4,6 +4,7 @@
     "name": "Workshops & Webinars",
      "description": "Due to the  pandemic, we continue to face a variety of challenges. However, we are looking forward to welcoming you back soon to our Workshops at EATC Berlin and to our online events. We place the highest priority on the health protection of our employees, visitors and customers. Taking into account all necessary hygiene regulations and greatly reduced number of participants at our EATC events, we offer you the following dates.",
      "img": "https://i.ibb.co/MP1MzdT/workshop1.jpg",
+     "specific": "Workshops Details",
       "price": 500 
   },
   {
@@ -11,6 +12,7 @@
     "name": "UH Career Failrs",
      "description": "Career fairs offer great opportunities to network with companies and find new employment opportunities. Unfortunately, they usually draw large crowds and it can be hard to stand out from the herd. Use these tips to help make a memorable first impression the next time you re out at a job fair!",
      "img": "https://i.ibb.co/yym0cxv/careerfair2.jpg",
+     "specific": "Career Details",
       "price": 400 
   },
   {
@@ -18,6 +20,7 @@
     "name": "International Conferences",
      "description": "The benefits of attending top medical conferences are infinite, from educational values to employer branding. The magnitude of events around the world, makes it difficult to decide which ones will be the most informative and interesting for the attendees. The healthcare industry is ever-changing, to keep up with the latest developments and solutions, you need to take every opportunity to learn and develop.",
      "img": "https://i.ibb.co/GVVsS0t/service7.jpg",
+     "specific": "Conference Details",
       "price": 600 
   },
   {
@@ -25,6 +28,7 @@
     "name": "Training Programs",
      "description": "Training programs are educational initiatives designed to equip individuals with specific skills or knowledge in a structured manner. These programs offer a combination of instructional content. They can be tailored to various purposes, such as career development, compliance, or skill enhancement, helping participants achieve their learning objectives and excel in their respective areas of interest or profession.",
      "img": "https://i.ibb.co/7vnKscW/training-programs1.jpg",
+     "specific": "Training Details",
       "price": 400 
   },
   {
@@ -32,6 +36,7 @@
     "name": "Thomas Career Fair",
      "description": "The Thomas Career Fair is an event that connects job seekers with potential employers. It offers a platform for individuals to explore career opportunities, network with companies, and submit resumes. Employers showcase their businesses, interview candidates, and recruit talent, making it a valuable event for both job seekers and employers.",
      "img": "https://i.ibb.co/x7DCJRh/career-Fairs2.jpg",
+     "specific": "Thomas Details",
       "price": 700 
   },
   {
@@ -39,6 +44,7 @@
     "name": " Executives Conference",
      "description": "An executive conference is a high-level business gathering where senior leaders, executives, and decision-makers convene to discuss strategic initiatives, industry trends, and leadership challenges. These events offer opportunities for networking, knowledge sharing, and the exchange of best practices, enabling executives to stay informed and make informed decisions.",
      "img": "https://i.ibb.co/Mn8s1FH/service10.jpg",
+     "specific": "Executive Details",
       "price": 700 
   }
 
