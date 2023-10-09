@@ -1,5 +1,5 @@
 # My Project Name Educational and Training event
-## Live Site Link : https://educational-and-training-b8524.web.app/
+## Live Site Link : https://sparkling-haupia-541b71.netlify.app/
 
 ### My Project Feature 
 - This project is educational and training event related.
